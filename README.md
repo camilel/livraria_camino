@@ -16,10 +16,10 @@ Main features include:
 - HTML (structure)
 
 ## Project Structure
-├── PHP files (add_cliente.php, cadastro.php, etc.)
-├── CSS files (stylesheets)
-├── bd_camino.sql
-└── imagens/   # folder containing images
+- PHP files (add_cliente.php, cadastro.php, etc.)
+- CSS files (stylesheets)
+- bd_camino.sql
+- imagens/  # folder containing images
 
 ## Installation
 1. Clone this repository:
