@@ -1,0 +1,137 @@
+body {   
+    background-color: #fffff0;
+    max-width: 100vw; /* tamanho no máximo da tela é o monitor */
+    overflow-x: hidden; /* impedir que crie barra de rolagem horizontal */  
+    overflow-y: auto; 
+}
+
+.titulo {
+    font-family: Segoe UI Black;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffff0;
+    position: relative;
+    top: -250px;
+    left: 400px;
+    width: 75%;
+    border-bottom: 1px solid black;
+    padding: 5px;
+  }
+
+.back {
+    position: absolute; 
+    top: 110px; 
+    right: 80px; 
+    font-family: Century gothic; 
+    font-size: 20px; 
+    color: black; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    z-index: 9999; 
+    font-weight: bold;
+}
+
+.back:hover{
+    transition: color 0.2s ease; 
+    color: #ccc;
+    transform: scale(1.2); 
+    transition: color 0.2s ease, transform 0.2s ease; 
+}
+
+a{
+    text-decoration: none;
+    color: #f4a460;
+}
+  
+ a:hover {
+    transition: color 0.2s ease; 
+    color: #ccc;
+}
+  
+
+.logo {
+    width: 250px;
+    height: 130px;
+    transform: skew(20deg);
+    background: #f4a460;
+    position: relative;
+    top: -20px; 
+    left: 10px; 
+}
+
+.logo1 {
+    position: relative;
+    top: -140px; 
+    left: 30px; 
+    font-family: Segoe UI Black;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.logo2 {
+    position: relative;
+    top: -150px; 
+    left: 80px; 
+    font-family: Segoe UI Black;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.container{
+    background-color: white;
+    border-radius: 30px;
+    width: 1250px;
+    height: 625px;
+    position: relative;
+    top: -200px;
+    left: 70px;
+    text-align: center;
+}
+
+.carrinho2 {
+  position: relative;
+  top:-150px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.carrinho-vazio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    text-align: center;
+    padding: 30px;
+    color: #343a40; 
+    margin-top: 20px;
+}
+
+.carrinho-vazio .icone-vazio {
+    font-size: 60px;
+    color: #6c757d; 
+    margin-bottom: 20px;
+}
+
+.carrinho-vazio h3 {
+    margin-bottom: 10px;
+    color: #343a40; 
+}
+
+.carrinho-vazio p {
+    margin-bottom: 20px;
+    color: #6c757d; 
+}
+
+.carrinho-vazio .btn-primary {
+    background-color: #343a40; 
+    border-color: #343a40;
+}
+
+.carrinho-vazio .btn-primary:hover {
+    background-color: #495057;
+    border-color: #495057;
+}
+

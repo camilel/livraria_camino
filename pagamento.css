@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background:#fffff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   }
+
+   .card {
+    background: #fffff0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+   }
+
+   h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+   }
+
+   input[type="radio"] {
+    display: none;
+   }
+
+   label {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+   }
+
+   input[type="radio"]:checked + label {
+    background: #eee;
+    font-weight: bold;
+   }
+
+   .form-section {
+    display: none;
+    margin-top: 20px;
+   }
+
+    /* Mostra o formulário conforme o radio */
+    #credito:checked ~ #form-credito { display: block; }
+    #debito:checked ~ #form-debito { display: block; }
+    #pix:checked ~ #form-pix { display: block; }
+        
+    input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   }
+
+   button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    font-style: bold;
+   }
+
+   .note {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+   }
+
+   .note a {
+    color: orange;
+    text-decoration: none;
+   }
+
+   .textarea {
+    display: block;
+   }
