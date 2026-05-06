@@ -16,10 +16,10 @@ Main features include:
 - HTML (structure)
 
 ## Project Structure
-- `src/` → PHP and CSS files
-- `db/` → SQL script (`bd_camino.sql`) to create the database
-- `assets/` → images used in the system
-- `docs/` → documentation and project report
+├── PHP files (add_cliente.php, cadastro.php, etc.)
+├── CSS files (stylesheets)
+├── bd_camino.sql
+└── imagens/   # folder containing images
 
 ## Installation
 1. Clone this repository:
