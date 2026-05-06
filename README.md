@@ -35,4 +35,4 @@ Main features include:
 5. Access the system in your browser at http://localhost/livraria_camino.
 
 ## Author
-Developed by **Camile** and **Bruno** as part of the Final Graduation Project in Systems Development at Etec Profª Anna de Oliveira Ferraz.
+Developed by **Camile** and **Bruno** as part of the final graduation project in Systems Development at Etec Profª Anna de Oliveira Ferraz.
